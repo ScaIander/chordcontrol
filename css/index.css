@@ -12,7 +12,7 @@ justify-content: center;
 
 background-image: url("../images/backgroundhome.jpg");
 width:100%;
-height:750px;
+height:100%;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -100,7 +100,7 @@ flex-direction: row;
 .container{
 
 background-color: rgba(255, 255, 255, 0.712);
-margin-top:320px;
+margin-top:250px;
 border-radius: 10px;
 width:60%;
 margin-left: 0px !important;
@@ -122,8 +122,10 @@ bottom: -40px !important;
 
 .icons{
 
-margin-left: 60%;
-margin-bottom:30%;
+margin-left: 3%;
+margin-right: 3%;
+margin-bottom:10%;
+margin-top:20%;
 display: flex;
 justify-content: space-between;
 
