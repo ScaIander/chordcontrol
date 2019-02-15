@@ -18,13 +18,23 @@ background-size: cover;
 background-position: center;
 }
 
-.navbar-brand{
-
-    display: flex !important;
-    justify-content: space-between ;
+h1{
+    
+    display: flex ;
+    justify-content: center ; 
     font-family: 'Six Caps', sans-serif;
-    font-size: 1em;
-    width: 55% ;
+    font-size: 3em ;
+    width: 43% ;
+    margin-right:30px;
+    margin-left:30px;
+    
+}
+
+.logo{
+
+width: 40px;
+height: 40px;
+
 
 }
 
@@ -44,7 +54,7 @@ background-position: center;
 
 .carousel-indicators{
 
-    bottom: -30px !important;
+    bottom: -30px; 
 
 }
 
@@ -57,12 +67,12 @@ background-position: center;
 
 }
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ffde59' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     
    }
    
    .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ffde59' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
      
    }
 
@@ -108,16 +118,26 @@ margin-right: 5%;
         background-position: center;
         }
         
-        .navbar-brand{
-        
-            display: flex !important;
-            justify-content: space-between ; 
+        h1{
+    
+            display: flex ;
+            justify-content: center ; 
             font-family: 'Six Caps', sans-serif;
-            font-size: 1.8em !important;
-            width: 55% ;
-        
+            font-size: 3em ;
+            width: 43% ;
+            margin-right:30px;
+            margin-left:50px;
+            
         }
         
+        .logo{
+
+            width: 50px;
+            height: 50px;
+            
+            
+            }
+
          .textodahome{
         
             display:flex;
@@ -134,7 +154,7 @@ margin-right: 5%;
         
         .carousel-indicators{
         
-            bottom: -30px !important;
+            bottom: -30px;
         
         }
         
@@ -147,12 +167,12 @@ margin-right: 5%;
         
         }
         .carousel-control-prev-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ffde59' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") ;
             
            }
            
            .carousel-control-next-icon {
-             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ffde59' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") ;
              
            }
         
@@ -177,4 +197,131 @@ margin-right: 5%;
         }
         
 
+}
+
+@media (min-width: 768px){
+
+
+@media only screen  and (min-width: 900px){
+.flexbox{
+
+    display:flex;
+    justify-content: center;
+    
+    
+    }
+    
+    .backgroundhome{
+    
+    background-image: url("../images/backgroundhome.jpg");
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .navbar{
+
+        height: 100px;
+
+    }
+
+    h1{
+    
+        display: flex ;
+        justify-content: center ; 
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em ;
+        width: 43% ;
+        margin-right:30px;
+        margin-left:300px;
+        
+    }
+
+    .nav-link{
+
+        color: rgba(0,0,0,.9) !important;
+        
+
+    }
+
+    .navbar-collapse{
+
+        padding-left: 150px ;
+        float:right;
+        display:flex ;
+        justify-content: space-between;
+        font-size: 1.1em ;
+    }
+
+    .logo{
+
+        width: 70px;
+        height: 70px;
+        
+        
+        }
+
+     .textodahome{
+    
+        display:flex;
+        flex-direction: column;
+        
+        margin-top:25%;
+        margin-left: 55%;
+        margin-bottom:10%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: solid black;
+        font-size: 2em;
+    
+    } 
+    
+    .carousel-indicators{
+    
+        bottom: -30px;
+    
+    }
+    
+    .carousel{
+    
+        width: 35%;
+        background-color: #f8f9fab7;
+        border-radius: 0 10px 10px 0;
+        margin-top: 25%;
+    
+    }
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") ;
+        
+       }
+       
+       .carousel-control-next-icon {
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") ;
+         
+       }
+    
+    .icons{
+    
+    
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width:40%;
+    margin-top:-27px;
+    margin-bottom: 5%;
+    margin-left: 55%;
+    margin-right: 5%;
+    
+    
+    }
+    
+     .fab{
+    
+        font-size:25px;
+        color:white;
+    
+    }
+    
 }
