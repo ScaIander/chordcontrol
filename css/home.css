@@ -1,13 +1,5 @@
 @media only screen  and (min-width: 0px){
 
-.flexbox{
-
-display:flex;
-justify-content: center;
-
-
-}
-
 .backgroundhome{
 
 background-image: url("../images/backgroundhome.jpg");
@@ -26,7 +18,7 @@ h1{
     font-size: 3em ;
     width: 43% ;
     margin-right:30px;
-    margin-left:30px;
+    margin-left:37px;
     
 }
 
@@ -44,7 +36,7 @@ height: 40px;
     flex-direction: column;
     
     margin-top:30%;
-    margin-left: 55%;
+    margin-left: 40%;
     margin-bottom:10%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -52,13 +44,13 @@ height: 40px;
 
 } 
 
-.carousel-indicators{
+.backgroundhome .carousel-indicators{
 
-    bottom: -30px; 
+    bottom: -50px; 
 
 }
 
-.carousel{
+.backgroundhome .carousel{
 
     width: 60%;
     background-color: #f8f9fab7;
@@ -66,12 +58,14 @@ height: 40px;
     margin-top: 40%;
 
 }
-.carousel-control-prev-icon {
+
+
+.backgroundhome .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     
    }
    
-   .carousel-control-next-icon {
+   .backgroundhome .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
      
    }
@@ -100,24 +94,6 @@ margin-right: 5%;
 
 @media only screen  and (min-width: 500px){
 
-    .flexbox{
-
-        display:flex;
-        justify-content: center;
-        
-        
-        }
-        
-        .backgroundhome{
-        
-        background-image: url("../images/backgroundhome.jpg");
-        width:100%;
-        height:100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        }
-        
         h1{
     
             display: flex ;
@@ -138,27 +114,10 @@ margin-right: 5%;
             
             }
 
-         .textodahome{
+       
         
-            display:flex;
-            flex-direction: column;
-            
-            margin-top:30%;
-            margin-left: 55%;
-            margin-bottom:10%;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            font-size: 1em;
-        
-        } 
-        
-        .carousel-indicators{
-        
-            bottom: -30px;
-        
-        }
-        
-        .carousel{
+       
+        .backgroundhome .carousel{
         
             width: 40%;
             background-color: #f8f9fab7;
@@ -166,29 +125,6 @@ margin-right: 5%;
             margin-top: 40%;
         
         }
-        .carousel-control-prev-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") ;
-            
-           }
-           
-           .carousel-control-next-icon {
-             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") ;
-             
-           }
-        
-        .icons{
-        
-        
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20%;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-        
-        
-        }
-        
          .fab{
         
             font-size:25px;
@@ -199,17 +135,8 @@ margin-right: 5%;
 
 }
 
-@media (min-width: 768px){
-
-
 @media only screen  and (min-width: 900px){
-.flexbox{
 
-    display:flex;
-    justify-content: center;
-    
-    
-    }
     
     .backgroundhome{
     
@@ -235,7 +162,7 @@ margin-right: 5%;
         font-size: 3em ;
         width: 43% ;
         margin-right:30px;
-        margin-left:300px;
+        margin-left:80px;
         
     }
 
@@ -248,7 +175,8 @@ margin-right: 5%;
 
     .navbar-collapse{
 
-        padding-left: 150px ;
+        padding-left: 130px ;
+        padding-right: 70px ;
         float:right;
         display:flex ;
         justify-content: space-between;
@@ -267,9 +195,8 @@ margin-right: 5%;
     
         display:flex;
         flex-direction: column;
-        
         margin-top:25%;
-        margin-left: 55%;
+        margin-left: 48%;
         margin-bottom:10%;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
@@ -278,30 +205,22 @@ margin-right: 5%;
     
     } 
     
-    .carousel-indicators{
+    .backgroundhome .carousel-indicators{
     
-        bottom: -30px;
+        bottom: -50px;
     
     }
     
-    .carousel{
+    .backgroundhome .carousel{
     
         width: 35%;
         background-color: #f8f9fab7;
         border-radius: 0 10px 10px 0;
-        margin-top: 25%;
+        margin-top: 15%;
+        margin-bottom: 10%;
     
     }
-    .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") ;
-        
-       }
-       
-       .carousel-control-next-icon {
-         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") ;
-         
-       }
-    
+   
     .icons{
     
     
@@ -309,8 +228,8 @@ margin-right: 5%;
     float: left;
     justify-content: space-between;
     width:40%;
-    margin-top:-27px;
-    margin-bottom: 5%;
+    margin-top:-160px;
+    margin-bottom: 20%;
     margin-left: 55%;
     margin-right: 5%;
     
@@ -319,9 +238,26 @@ margin-right: 5%;
     
      .fab{
     
-        font-size:25px;
+        font-size:30px;
         color:white;
     
     }
+    
+}
+
+@media only screen  and (min-width: 1000px){
+
+    h1{
+    
+        display: flex ;
+        justify-content: center ; 
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em ;
+        width: 43% ;
+        margin-right:30px;
+        margin-left:300px;
+        
+    }
+
     
 }

@@ -12,116 +12,229 @@
     <link rel="stylesheet" href="css/sixcaps.css">
     <link rel="stylesheet" href="css/montserrat.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/agenda.css">
 </head>
 
 <body>
 
-    <div class="flexbox">
-
-        <div class="backgroundhome">
-
-            <!--Navbar-->
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-                <div class="logo">
-                 <img src="images/logo.png" class="logo"> 
-                </div>
-
-                <h1>Chord Control </h1>
-                     
-                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Agenda <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <!--texto da home-->
-             
-             <div class= "textodahome">
-
-                ipsum
-                <p>INTEGER LUCTUS AUCTOR LIGULA,</p>
-                QUIS VEHICULA LEO IACULIS.
 
 
-                </div>
+    <div class="backgroundhome">
 
-            <!--Carrosel-->
-                
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <i class="far fa-comments" style="margin-left: 5%; color:#ffde59; font-size:20px;"></i>
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> 
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <center><p>Muito Bom!!!</p>
-                        <p>-Eraldo Silva</p></center>
-                    </div>
-                     <div class="carousel-item">
-                       <center><p>Sensacional!!!</p>
-                        <p>-Lucas Silva</p></center>
-                    </div>
-                    <div class="carousel-item">
-                        <center><p>A melhor!!!</p>
-                        <p>-José Ricardo</p></center>
-                    </div> 
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
-                    <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+        <!--Navbar-->
+
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo">
+                <img src="images/logo.png" class="logo">
             </div>
-        
-            <!--ícones-->
 
-            <div class="icons">
+            <h1>Chord Control </h1>
 
-                    <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a> 
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>  
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> 
-                    <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a> 
-                    <a href="https://www.spotify.com/br/"><i class="fab fa-spotify"></i></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#agenda">Agenda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
+        <!--texto da home-->
+
+        <div class="textodahome">
+
+            ipsum
+            <p>INTEGER LUCTUS AUCTOR LIGULA,</p>
+            QUIS VEHICULA LEO IACULIS.
+
 
         </div>
 
+        <!--Carrosel-->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <i class="far fa-comments" style="margin-left: 5%; color:#ffde59; font-size:20px;"></i>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <center>
+                        <p>Muito Bom!!!</p>
+                        <p>-Eraldo Silva</p>
+                    </center>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <p>Sensacional!!!</p>
+                        <p>-Lucas Silva</p>
+                    </center>
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <p>A melhor!!!</p>
+                        <p>-José Ricardo</p>
+                    </center>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--ícones-->
+
+        <div class="icons">
+
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://www.spotify.com/br/"><i class="fab fa-spotify"></i></a>
+
+        </div>
+
+    </div>
+
+
+    <div class="backgroundagenda">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="slide">
+
+                        <div class="texto">
+
+                            <h1>13/09</h1>
+
+                            <h2>Nam finibus tortor risus. Proin eu blandit arcu. Mauris finibus sem in cursus luctus.
+                                Nam
+                                cursus pretium nulla, ut consectetur purus. Nam tempus, libero at mattis elementum, nisi.
+                                
+
+                                <br>
+                                <br>
+
+                                <p>(04) 298 3985 2092
+                                        <br>
+                                        <br>
+                                +76 209 1092</p>
+                            </h2>
+
+                        </div>
+                        <div class="images">
+
+                            <img src="images/amplifier1.jpg">
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item">
+
+                    <div class="slide">
+
+                        <div class="texto">
+
+                            <h1>01/10</h1>
+
+                            <h2>Pellentesque sem neque, mollis at convallis ac, venenatis in justo. Sed nec ornare
+                                turpis. Mauris nisl lectus, auctor non tempus vel, ultrices vitae nisl. Lorem ipsum
+                                dolor sit amet, consectetur.
+
+                                <br>
+                                <br>
+
+                                <p>(04) 298 3985 2092
+                                        <br>
+                                        <br>
+                                +76 666 1356</p>
+                            </h2>
+                        </div>
+                        <div class="images">
+
+                            <img src="images/carouselagenda.jpg">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="slide">
+
+                        <div class="texto">
+
+                            <h1>23/11</h1>
+
+                            <h2>In quis quam id est tempor aliquet. Nunc vitae aliquam eros. Quisque finibus ullamcorper
+                                nibh, quis tempus est ultrices sit amet. Curabitur sagittis ipsum sit amet lorem pretium
+                                congue. 
+
+                                <br>
+                                <br>
+
+                                <p>(04) 298 3985 2092
+                                        <br>
+                                        <br>
+                                +76 576 2222</p>
+                            </h2>
+
+                        </div>
+                        <div class="images">
+
+                            <img src="images/backgroundagenda2.jpg">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <a id="agenda" href="#navbar"><i class="fas fa-chevron-up"></i></a>
 
 
     </div>
 
-    
+
+
+
+
+
 </body>
 
 </html>
