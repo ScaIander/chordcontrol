@@ -1,0 +1,194 @@
+
+@media only screen  and (min-width: 0px){
+
+
+  
+
+     .imagem1{
+
+        background-image: url("../images/backgroundsobre.jpg");
+        width:350px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+
+    }
+
+    .imagem1 h1{
+
+        padding-top:60px;
+        padding-left:130px;
+        font-size:1.8em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+    .imagem1 h2{
+
+        padding-top:35px;
+        padding-right:1%;
+        padding-left:1%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+    
+
+     .imagem2{
+
+        
+
+        background-image: url("../images/baixo.jpg");
+        width:350px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+
+    }
+
+    .imagem2 h1{
+
+        padding-top:40px;
+        padding-left:170px;
+        font-size:1.8em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+    .imagem2 h2{
+
+        
+        padding-top:20px; 
+        padding-left:27%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+    .imagem3{
+
+        
+
+        background-image: url("../images/guitar.jpg");
+        width:350px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+
+    }
+
+    .imagem3 h1{
+
+        padding-top:40px;
+        padding-left:8%;
+        font-size:1.8em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+    .imagem3 h2{
+
+        
+        padding-left:2%;
+        padding-right:63%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+    .imagem4{
+
+        
+
+        background-image: url("../images/drums.jpeg");
+        width:350px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+
+    }
+
+    .imagem4 h1{
+
+        padding-top:40px;
+        padding-left:115px;
+        font-size:1.8em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+    .imagem4 h2{
+
+        
+        padding-left:2%;
+        padding-right:2%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+    .imagem5{
+
+        
+
+        background-image: url("../images/mic.jpg");
+        width:350px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:white;
+
+    }
+
+    .imagem5 h1{
+
+        padding-top:40px;
+        padding-left:115px;
+        font-size:1.8em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+    .imagem5 h2{
+
+        
+        padding-left:2%;
+        padding-right:2%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+    .sobrenos .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        margin-top:500px;
+       }
+       
+    .sobrenos .carousel-control-next-icon {
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+         margin-top:500px;
+       }
+    
+    
+    .sobrenos i{
+    
+        display:flex;
+        justify-content: center; 
+        color:rgb(255,222,89);
+        font-size:30px;
+        opacity:0.6;
+       
+        
+       }
+
+}
