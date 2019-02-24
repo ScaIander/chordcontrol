@@ -105,7 +105,7 @@ margin-right: 5%;
 
 @media only screen  and (min-width: 500px){
 
-        h1{
+        .backgroundhome h1{
     
             display: flex ;
             justify-content: center ; 
@@ -151,7 +151,7 @@ margin-right: 5%;
         
         }
 
-        .icons{
+        .backgroundhome .icons{
 
 
             display: flex;
@@ -176,14 +176,13 @@ margin-right: 5%;
 
 @media only screen  and (min-width: 1000px){
 
-    h1{
+    .backgroundhome h1{
     
         display: flex ;
         justify-content: center ; 
         font-family: 'Six Caps', sans-serif;
         font-size: 3em ;
         width: 43% ;
-        margin-right:30px;
         margin-left:260px;
         
     }
@@ -210,12 +209,19 @@ margin-right: 5%;
         
     
     }
-    .icons{
+    .backgroundhome .icons{
 
-        margin-top:-10px;
+        margin-top:-1px;
         margin-left: 60%;
         margin-right: 5%;
-        font-size:40px;
+       
+        
+        }
+
+        .fab{
+
+            font-size:30px;
+            color:white;
         
         }
 }

@@ -1,0 +1,211 @@
+
+@media only screen  and (min-width: 0px){
+
+
+.backgroundcontato{
+
+background-image: url("../images/backgroundcontato.jpg");
+width:100%;
+height:100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+
+.backgroundcontato h1{
+
+padding-top: 80px;
+color:white;
+font-size: 3em;
+margin-left: 20%;
+
+font-family: 'Six Caps', sans-serif;
+}
+
+
+.formcontato{
+
+padding-top: 130px;
+color:white;
+
+}
+
+.formcontato input{
+
+width: 55%;
+box-sizing: border-box;
+display: inline-block;
+float:right;
+margin-right:10%;
+border-radius:5px;
+border: none;
+
+}
+
+.formcontato input[type="submit"]{
+
+    width:20%;
+    margin-right:28%;
+    background-color:rgb(255,222,89);
+    border: none;
+    border-radius:5px; 
+    font-family: 'Arapey', serif;
+    
+}
+
+
+
+.formcontato label{
+
+    margin-left:20px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+    font-family: 'Arapey', serif;
+
+}
+
+.info{
+
+    
+    padding: 30px;
+    margin-bottom:20px;
+}
+
+.backgroundcontato i{
+    
+    display:flex;
+    justify-content: center; 
+    color:rgb(255,222,89);
+    font-size:30px;
+    opacity:0.6;
+    margin-top : 25%;
+    
+       
+}
+
+}
+
+@media only screen  and (min-width: 500px){
+
+
+    .backgroundcontato h1{
+
+        margin-left: 30%;
+    
+        }
+
+
+        .backgroundcontato i{
+
+            font-size:40px;
+
+        }
+
+}
+
+@media only screen  and (min-width: 700px){
+
+        .backgroundcontato h1{
+
+        padding-top: 15%;
+        font-size: 4em;
+        
+        margin-left: 5%;
+        
+        }
+
+        .formcontato{
+
+            padding-top: 50px;
+            color:white;
+            
+            }
+
+        .formcontato input{
+
+            width: 35%;
+            box-sizing: border-box;
+            display: inline-block;
+            float:right;
+            margin-right: 4%;
+            border-radius:5px;
+            border: none;
+            
+            }
+            
+            .formcontato input[type="submit"]{
+            
+                width:20%;
+                background-color:rgb(255,222,89);
+                border: none;
+                margin-right: 10%;
+                border-radius:5px; 
+                font-family: 'Arapey', serif;
+                
+            }
+            
+            
+            
+            .formcontato label{
+            
+                margin-left:20px;
+                display: inline-block;
+                margin-left:47%;
+                float: left;
+                clear: left;
+                text-align: right;
+                font-family: 'Arapey', serif;
+            
+            }
+
+}
+
+@media only screen  and (min-width: 1000px){
+
+    .backgroundcontato h1{
+
+        padding-top: 15%;
+        font-size: 7em;
+        
+        margin-left: 5%;
+        
+        }
+
+        .formcontato{
+
+            margin-top: -24%;
+            color:white;
+            
+            }
+
+        .formcontato input[type="submit"]{
+            
+            width:15%;
+            margin-right: 13%;
+             
+            }
+
+        .formcontato input[type="submit"]:hover{
+
+          background-color:rgb(231, 217, 160);
+          padding:3px;  
+
+        }   
+
+        .backgroundcontato i{
+    
+            display:flex;
+            justify-content: center; 
+            color:rgb(255,222,89);
+            font-size:40px;
+            opacity:0.6;
+            margin-top : 10%;
+                
+                   
+            }
+
+}
