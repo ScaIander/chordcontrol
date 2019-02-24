@@ -231,6 +231,30 @@
 
 }
 
+@media only screen  and (min-width: 360px){
+
+    .imagem2 h2{
+
+        
+        padding-top:20px; 
+        padding-left:30%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+    .imagem3 h2{
+
+        
+        padding-left:2%;
+        padding-right:65%;
+        font-size:0.55em;
+        font-family: 'Arapey', serif;
+
+    }
+
+}
+
 @media only screen and (min-width: 500px){
 
     .imagem1 h1{
