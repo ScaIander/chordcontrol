@@ -44,6 +44,20 @@ border: none;
 
 }
 
+.textbox{
+
+    width: 55%;
+    height: 100px;
+    Resize:none;
+    box-sizing: border-box;
+    display: inline-block;
+    float:right;
+    margin-right:10%;
+    border-radius:5px;
+    border: none;
+
+}
+
 .formcontato input[type="submit"]{
 
     width:20%;
@@ -70,8 +84,7 @@ border: none;
 
 .info{
 
-    
-    padding: 30px;
+    font-size:15px;
     margin-bottom:20px;
 }
 
@@ -162,6 +175,13 @@ border: none;
             
             }
 
+            .textbox{
+
+                width: 35%;
+                height: 100px;
+                margin-right: 4%;
+            }
+
 }
 
 @media only screen  and (min-width: 1000px){
@@ -170,7 +190,6 @@ border: none;
 
         padding-top: 15%;
         font-size: 7em;
-        
         margin-left: 5%;
         
         }
@@ -206,6 +225,20 @@ border: none;
             margin-top : 10%;
                 
                    
+            }
+
+            .textbox{
+
+                width: 35%;
+                height: 100px;
+                Resize:none;
+                box-sizing: border-box;
+                display: inline-block;
+                float:right;
+                margin-right:4%;
+                border-radius:5px;
+                border: none;
+            
             }
 
 }
