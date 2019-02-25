@@ -1,6 +1,7 @@
 
 @media only screen  and (min-width: 0px){
 
+/* Imagem de fundo da aba Contato */
 
 .backgroundcontato{
 
@@ -13,6 +14,7 @@ background-position: center;
 
 }
 
+/* Título Contato Profissional */
 
 .backgroundcontato h1{
 
@@ -24,6 +26,7 @@ margin-left: 20%;
 font-family: 'Six Caps', sans-serif;
 }
 
+/* Formulário de Contato */
 
 .formcontato{
 
@@ -31,6 +34,8 @@ padding-top: 130px;
 color:white;
 
 }
+
+/* Inputs do Formulário de Contato */
 
 .formcontato input{
 
@@ -43,6 +48,8 @@ border-radius:5px;
 border: none;
 
 }
+
+/* Input de informação do Formulário de Contato */
 
 .textbox{
 
@@ -58,6 +65,8 @@ border: none;
 
 }
 
+/* Botão de enviar do  Formulário de Contato */
+
 .formcontato input[type="submit"]{
 
     width:20%;
@@ -69,7 +78,7 @@ border: none;
     
 }
 
-
+/* Nomes de cada input do  Formulário de Contato */
 
 .formcontato label{
 
@@ -82,11 +91,7 @@ border: none;
 
 }
 
-.info{
-
-    font-size:15px;
-    margin-bottom:20px;
-}
+/* ícone para voltar para a home da aba Contato*/
 
 .backgroundcontato i{
     
@@ -104,6 +109,8 @@ border: none;
 
 @media only screen  and (min-width: 360px){
 
+/* Título Contato Profissional */
+
     .backgroundcontato h1{
 
         margin-left: 38%;
@@ -114,6 +121,7 @@ border: none;
 
 @media only screen  and (min-width: 500px){
 
+/* Título Contato Profissional */
 
     .backgroundcontato h1{
 
@@ -121,6 +129,7 @@ border: none;
     
         }
 
+/* ícone para voltar para a home da aba Contato*/
 
         .backgroundcontato i{
 
@@ -132,6 +141,8 @@ border: none;
 
 @media only screen  and (min-width: 700px){
 
+/* Título Contato Profissional */
+
         .backgroundcontato h1{
 
         padding-top: 15%;
@@ -141,12 +152,16 @@ border: none;
         
         }
 
+/* Formulário de Contato */
+
         .formcontato{
 
             padding-top: 50px;
             color:white;
             
             }
+
+/* Inputs do Formulário de Contato */
 
         .formcontato input{
 
@@ -159,42 +174,48 @@ border: none;
             border: none;
             
             }
+
+/* Botão de enviar do  Formulário de Contato */            
             
-            .formcontato input[type="submit"]{
+        .formcontato input[type="submit"]{
             
-                width:20%;
-                background-color:rgb(255,222,89);
-                border: none;
-                margin-right: 10%;
-                border-radius:5px; 
-                font-family: 'Arapey', serif;
+            width:20%;
+            background-color:rgb(255,222,89);
+            border: none;
+            margin-right: 10%;
+            border-radius:5px; 
+            font-family: 'Arapey', serif;
                 
             }
             
+/* Nomes de cada input do  Formulário de Contato */            
             
+        .formcontato label{
             
-            .formcontato label{
-            
-                margin-left:20px;
-                display: inline-block;
-                margin-left:47%;
-                float: left;
-                clear: left;
-                text-align: right;
-                font-family: 'Arapey', serif;
+            margin-left:20px;
+            display: inline-block;
+            margin-left:47%;
+            float: left;
+            clear: left;
+            text-align: right;
+            font-family: 'Arapey', serif;
             
             }
 
-            .textbox{
+/* Input de informação do Formulário de Contato */            
 
-                width: 35%;
-                height: 100px;
-                margin-right: 4%;
+        .textbox{
+
+            width: 35%;
+            height: 100px;
+            margin-right: 4%;
             }
 
 }
 
 @media only screen  and (min-width: 1000px){
+
+/* Título Contato Profissional */
 
     .backgroundcontato h1{
 
@@ -204,19 +225,25 @@ border: none;
         
         }
 
-        .formcontato{
+/* Formulário de Contato */        
 
-            margin-top: -24%;
-            color:white;
+    .formcontato{
+
+        margin-top: -24%;
+        color:white;
             
             }
 
-        .formcontato input[type="submit"]{
+/* Botão de enviar do  Formulário de Contato */            
+
+    .formcontato input[type="submit"]{
             
-            width:15%;
-            margin-right: 13%;
+        width:15%;
+        margin-right: 13%;
              
             }
+
+/* Hover do botão de enviar do  Formulário de Contato */            
 
         .formcontato input[type="submit"]:hover{
 
@@ -224,6 +251,8 @@ border: none;
           padding:3px;  
 
         }   
+
+/* ícone para voltar para a home da aba Contato*/
 
         .backgroundcontato i{
     
@@ -236,6 +265,8 @@ border: none;
                 
                    
             }
+
+/* Input de informação do Formulário de Contato */             
 
             .textbox{
 

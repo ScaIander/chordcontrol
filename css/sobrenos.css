@@ -2,7 +2,7 @@
 @media only screen  and (min-width: 0px){
 
 
-  
+   /* Primeiro background do carrosel ( Sobre nós) */
 
      .imagem1{
 
@@ -17,6 +17,8 @@
 
     }
 
+    /* Título do primeiro slide */
+
     .imagem1 h1{
 
         padding-top:60px;
@@ -25,6 +27,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* texto do primeiro slide */
 
     .imagem1 h2{
 
@@ -36,8 +40,7 @@
 
     }
 
- 
-    
+    /* Segundo background do carrosel ( Jonh Deacon ) */
 
      .imagem2{
 
@@ -53,6 +56,8 @@
 
     }
 
+    /* Título do segundo slide */
+
     .imagem2 h1{
 
         padding-top:40px;
@@ -61,6 +66,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do segundo slide */
 
     .imagem2 h2{
 
@@ -72,6 +79,8 @@
 
     }
 
+    /* Sub-título do segundo slide */
+
     .imagem2 h3{
 
         margin-top: -15px;
@@ -80,6 +89,8 @@
         font-family: 'Arapey', serif;
 
     }
+    
+    /* Terceiro background do carrosel ( Brian May ) */
 
     .imagem3{
 
@@ -95,6 +106,8 @@
 
     }
 
+    /* Título do terceiro slide */
+
     .imagem3 h1{
 
         padding-top:40px;
@@ -103,6 +116,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do terceiro slide */
 
     .imagem3 h2{
 
@@ -114,6 +129,8 @@
 
     }
 
+    /* Sub-título do terceiro slide */
+
     .imagem3 h3{
 
         margin-top: -15px;
@@ -122,6 +139,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+    /* Quarta background do carrosel ( Rogger Meddows ) */
 
     .imagem4{
 
@@ -137,6 +156,8 @@
 
     }
 
+    /* Título do quarto slide */
+
     .imagem4 h1{
 
         padding-top:40px;
@@ -145,6 +166,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do quarto slide */
 
     .imagem4 h2{
 
@@ -156,6 +179,8 @@
 
     }
 
+    /* Sub-título do quarto slide */
+
     .imagem4 h3{
 
         margin-top: -15px;
@@ -164,6 +189,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+    /* Quinta background do carrosel ( Freddie Mercury ) */
 
     .imagem5{
 
@@ -179,6 +206,8 @@
 
     }
 
+    /* Título do quinto slide */
+
     .imagem5 h1{
 
         padding-top:35px;
@@ -187,6 +216,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do quinto slide */
 
     .imagem5 h2{
 
@@ -198,6 +229,8 @@
 
     }
 
+    /* Sub-título do quinto slide */
+
     .imagem5 h3{
 
         margin-top: -15px;
@@ -207,17 +240,22 @@
 
     }
 
+    /* ícone de voltar do carrosel da Sobre Nós */
+
     .sobrenos .carousel-control-prev-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
         margin-top:500px;
        }
+
+    /* ícone de passar do carrosel da Sobre Nós */   
        
     .sobrenos .carousel-control-next-icon {
          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
          margin-top:500px;
        }
     
-    
+    /* ícone para voltar para a home da aba Sobre Nós*/
+
     .sobrenos i{
     
         display:flex;
@@ -233,6 +271,8 @@
 
 @media only screen  and (min-width: 360px){
 
+    /* Texto do segundo slide */
+
     .imagem2 h2{
 
         
@@ -242,6 +282,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+    /* Texto do terceiro slide */
 
     .imagem3 h2{
 
@@ -257,6 +299,8 @@
 
 @media only screen and (min-width: 500px){
 
+    /* Título do primeiro slide */
+
     .imagem1 h1{
 
         padding-top:60px;
@@ -265,6 +309,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do primeiro slide */
 
     .imagem1 h2{
 
@@ -276,6 +322,8 @@
 
     }
 
+    /* Título do segundo slide */
+
     .imagem2 h1{
 
         padding-top:40px;
@@ -284,6 +332,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do segundo slide */
 
     .imagem2 h2{
 
@@ -295,6 +345,8 @@
 
     }
 
+    /* Sub-título do segundo slide */
+
     .imagem2 h3{
 
         margin-top: -15px;
@@ -304,6 +356,8 @@
 
     }
 
+    /* Título do terceiro slide */
+
     .imagem3 h1{
 
         padding-top:30px;
@@ -312,6 +366,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do terceiro slide */
 
     .imagem3 h2{
 
@@ -323,6 +379,8 @@
 
     }
 
+    /* Sub-título do terceiro slide */
+
     .imagem3 h3{
 
         margin-top: -15px;
@@ -332,6 +390,8 @@
 
     }
 
+    /* Título do quarto slide */
+
     .imagem4 h1{
 
         padding-top:40px;
@@ -340,6 +400,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do quarto slide */
 
     .imagem4 h2{
 
@@ -351,6 +413,8 @@
 
     }
 
+    /* Sub-título do quarto slide */
+
     .imagem4 h3{
 
         margin-top: -15px;
@@ -360,6 +424,8 @@
 
     }
 
+    /* Título do quinto slide */
+
     .imagem5 h1{
 
         padding-top:23px;
@@ -368,6 +434,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+    /* Texto do quinto slide */
 
     .imagem5 h2{
 
@@ -379,6 +447,8 @@
 
     }
 
+    /* Sub-título do quinto slide */
+
     .imagem5 h3{
 
         margin-top: -15px;
@@ -388,31 +458,60 @@
 
     }
 
-    
+    /* ícone de voltar do carrosel da Sobre Nós */
+
     .sobrenos .carousel-control-prev-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
         height:30px;
         width:30px;
        }
        
-       .sobrenos .carousel-control-next-icon {
+    /* ícone de voltar do carrosel da Sobre Nós */
+
+    .sobrenos .carousel-control-next-icon {
          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
          height:30px;
          width:30px;
        }
 
-       .sobrenos i{
+    /* ícone para voltar para a home da aba Sobre Nós*/
+
+    .sobrenos i{
 
         margin-top: -80px;
         color:rgb(255,222,89);
         font-size:40px;
         opacity:0.6;
-   }
+
+            }
 
 }
 
 @media only screen and (min-width: 700px){
 
+/* Título do primeiro slide */
+
+    .imagem1 h1{
+
+        padding-top:60px;
+        padding-left:70%;
+        font-size:4em;
+        font-family: 'Six Caps', sans-serif;
+
+    }
+
+/* texto do primeiro slide */
+
+    .imagem1 h2{
+
+        margin-top: -15%;
+        padding-right:40%;
+        font-size:0.85em;
+        font-family: 'Arapey', serif;
+
+    }
+
+/* segundo background do carrosel ( Jonh Deacon ) */   
 
     .imagem2{
 
@@ -428,24 +527,7 @@
 
     }
 
-
-    .imagem1 h1{
-
-        padding-top:60px;
-        padding-left:70%;
-        font-size:4em;
-        font-family: 'Six Caps', sans-serif;
-
-    }
-
-    .imagem1 h2{
-
-        margin-top: -15%;
-        padding-right:40%;
-        font-size:0.85em;
-        font-family: 'Arapey', serif;
-
-    }
+/* Título do segundo slide */
 
     .imagem2 h1{
 
@@ -455,6 +537,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do segundo slide */
 
     .imagem2 h2{
 
@@ -466,6 +550,8 @@
 
     }
 
+/* Sub-título do segundo slide */    
+
     .imagem2 h3{
 
         margin-top: -15px;
@@ -475,6 +561,8 @@
 
     }
 
+/* Título do terceiro slide */
+
     .imagem3 h1{
 
         padding-top:30px;
@@ -483,6 +571,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do terceiro slide */    
 
     .imagem3 h2{
 
@@ -494,6 +584,8 @@
 
     }
 
+/* Sub-título do terceiro slide */    
+
     .imagem3 h3{
 
         margin-top: -15px;
@@ -503,11 +595,15 @@
 
     }
 
+/* Quarto background do carrosel ( Roggers Meddows ) */
+
     .imagem4{
 
         background-position: right;
     
     }
+
+/* Título do quarto slide */
 
     .imagem4 h1{
 
@@ -518,6 +614,8 @@
 
     }
 
+/* Texto do quarto slide */
+
     .imagem4 h2{
 
         margin-top: -15%;
@@ -526,6 +624,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+/* Sub-título do quarto slide */    
 
     .imagem4 h3{
 
@@ -536,12 +636,15 @@
 
     }
 
-    
+/* Quinta background do carrosel ( Freddie Mercury ) */
+
     .imagem5{
 
         background-position: right;
     
     }
+
+/* Título do quinto slide */
 
     .imagem5 h1{
 
@@ -552,6 +655,8 @@
 
     }
 
+/* Texto do quinto slide */
+
     .imagem5 h2{
 
         margin-top: -18%;
@@ -561,6 +666,8 @@
 
     }
 
+/* Sub-título do quinto slide */
+
     .imagem5 h3{
 
         margin-top: -15px;
@@ -569,6 +676,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+ /* ícone para voltar para a home da aba Sobre Nós*/
 
     .sobrenos i{
 
@@ -582,6 +691,8 @@
 
 @media only screen and (min-width: 1000px){
 
+/* Título do primeiro slide */
+
     .imagem1 h1{
 
         padding-top:60px;
@@ -590,6 +701,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do primeiro slide */
 
     .imagem1 h2{
 
@@ -600,6 +713,8 @@
 
     }
 
+/* Título do segundo slide */    
+
     .imagem2 h1{
 
         padding-top:10%;
@@ -608,6 +723,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do segundo slide */    
 
     .imagem2 h2{
 
@@ -619,6 +736,8 @@
 
     }
 
+/* Sub-título do segundo slide */    
+
     .imagem2 h3{
 
         margin-top: -15px;
@@ -628,6 +747,8 @@
 
     }
 
+/* Título do terceiro slide */    
+
     .imagem3 h1{
 
         padding-top:30px;
@@ -636,6 +757,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do terceiro slide */     
 
     .imagem3 h2{
 
@@ -647,6 +770,8 @@
 
     }
 
+/* Sub-título do terceiro slide */     
+
     .imagem3 h3{
 
         margin-top: -15px;
@@ -655,6 +780,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+/* Título do quarto slide */     
 
     .imagem4 h1{
 
@@ -665,6 +792,8 @@
 
     }
 
+/* Texto do quarto slide */     
+
     .imagem4 h2{
 
         padding-top: 6.5%;
@@ -673,6 +802,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+/* Sub-título do quarto slide */     
 
     .imagem4 h3{
 
@@ -683,6 +814,8 @@
 
     }
 
+/* Título do quinto slide */     
+
     .imagem5 h1{
 
         padding-top:50px;
@@ -691,6 +824,8 @@
         font-family: 'Six Caps', sans-serif;
 
     }
+
+/* Texto do quinto slide */       
 
     .imagem5 h2{
 
@@ -701,6 +836,8 @@
 
     }
 
+/* Sub-título do quinto slide */       
+
     .imagem5 h3{
 
         margin-top: -15px;
@@ -709,6 +846,8 @@
         font-family: 'Arapey', serif;
 
     }
+
+/* ícone para voltar para a home da aba Sobre Nós*/
 
     .sobrenos i{
 

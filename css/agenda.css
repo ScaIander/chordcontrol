@@ -1,5 +1,7 @@
 @media only screen  and (min-width: 0px){
 
+ /* Imagem de fundo da aba Agenda */
+
 .backgroundagenda{
     
     background-image: url("../images/metalbackground.jpg");
@@ -10,10 +12,9 @@
     background-position: center;
     }
 
+ /* Div de texto do carrosel da Agenda */
 
-
-
-    .backgroundagenda .texto{
+.backgroundagenda .texto{
 
         
         margin-top: 85px;
@@ -25,7 +26,10 @@
         
     }
 
-    .backgroundagenda .texto h1{
+ /* Datas do carrosel da agenda (título) */
+
+.backgroundagenda .texto h1{
+
         margin-top:60px;
         margin-left: 85px;
         font-weight: bold;
@@ -35,7 +39,9 @@
 
     }
 
-    .backgroundagenda .texto h2{
+/* informações do carrosel da agenda (texto) */
+
+.backgroundagenda .texto h2{
 
         font-weight: lighter;
         color: black;
@@ -46,7 +52,9 @@
 
     }
 
-    .backgroundagenda .images {
+/* Div da imagem do carrosel da Agenda */
+
+.backgroundagenda .images {
 
         width :90%;
         height:438px;
@@ -56,6 +64,8 @@
 
     }
 
+/* imagens do carrosel da Agenda */
+
     .backgroundagenda .images img{
 
         width :100%;
@@ -63,16 +73,21 @@
        
     }
 
+/* ícone de voltar do carrosel da Agenda */
+
 .backgroundagenda .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     
    }
    
+/* ícone de passar do carrosel da Agenda */
+
    .backgroundagenda .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
      
    }
 
+/* ícone para voltar para a home da aba Agenda*/
 
    .backgroundagenda i{
 
@@ -89,7 +104,9 @@
 
 @media only screen  and (min-width: 500px){
 
-    .backgroundagenda{
+/* Imagem de fundo da aba Agenda */
+
+.backgroundagenda{
     
         background-image: url("../images/metalbackground.jpg");
         width:100%;
@@ -99,45 +116,53 @@
         background-position: center;
         }
 
-        .backgroundagenda .texto h1{
-            margin-top:40px;
-            margin-left: 38%;
-            font-weight: bold;
-            color: black;
-            font-size: 2.7em;
-          
-    
+/* Datas do carrosel da agenda (título) */    
+
+.backgroundagenda .texto h1{
+        margin-top:40px;
+        margin-left: 38%;
+        font-weight: bold;
+        color: black;
+        font-size: 2.7em;
+        
         }
+
+/* informações do carrosel da agenda (texto) */        
     
-        .backgroundagenda .texto h2{
+.backgroundagenda .texto h2{
     
-            font-weight: lighter;
-            color: black;
-            font-size:0.86em;
-            margin-top:130px;
+        font-weight: lighter;
+        color: black;
+        font-size:0.86em;
+        margin-top:130px;
           
     
         }
   
-    .backgroundagenda .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-        height:30px;
-        width:30px;
+/* ícone de voltar do carrosel da Agenda */        
+
+.backgroundagenda .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height:30px;
+    width:30px;
        }
+    
+/* ícone de passar do carrosel da Agenda */         
+
+.backgroundagenda .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    height:30px;
+    width:30px;
+       }
+    
+/* ícone para voltar para a home da aba Agenda*/   
        
-       .backgroundagenda .carousel-control-next-icon {
-         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-         height:30px;
-         width:30px;
-       }
+.backgroundagenda i{
     
-    
-       .backgroundagenda i{
-    
-        color:rgb(255,222,89);
-        font-size:40px;
-        opacity:0.6;
-        margin-bottom: 40px;
+    color:rgb(255,222,89);
+    font-size:40px;
+    opacity:0.6;
+    margin-bottom: 40px;
     
        }
     
@@ -146,77 +171,120 @@
 
 @media only screen  and (min-width: 700px){
 
-    .backgroundagenda .slide{
+/* carrosel da agenda */  
 
-        display: flex;
-        align-items: row;
-        margin-left:2%;
-        margin-right:2%;     
+.backgroundagenda .slide{
+
+    display: flex;
+    align-items: row;
+    margin-left:2%;
+    margin-right:2%;     
 
     }
 
-    .backgroundagenda .texto h1{
-        margin-top:40px;
-        margin-left:80px;
-        font-weight: bold;
-        color: black;
-        font-size: 4em;
+/* Datas do carrosel da agenda (título) */
+
+.backgroundagenda .texto h1{
+    margin-top:40px;
+    margin-left:25%;;
+    font-weight: bold;
+    color: black;
+    font-size: 4em;
       
-
     }
 
-    .backgroundagenda .texto h2{
+/* informações do carrosel da agenda (texto) */ 
 
-        font-weight: lighter;
-        color: black;
-        font-size:1em;
-        margin-top:80px;
+.backgroundagenda .texto h2{
+
+    font-weight: lighter;
+    color: black;
+    font-size:1em;
+    margin-top:80px;
       
-
     }
 
-    .backgroundagenda .texto{
+/* Div de texto do carrosel da Agenda */    
+
+.backgroundagenda .texto{
 
         
-        margin-top: 105px;
-        background-color: white;
-        width :100%;
-        height:438px;
-        margin-left:0px;
-        margin-right:0px;
+    margin-top: 105px;
+    background-color: white;
+    width :100%;
+    height:438px;
+    margin-left:0px;
+    margin-right:0px;
+
     }
 
-    .backgroundagenda .images {
+/* Div da imagem do carrosel da Agenda */
 
-        margin-top: 105px;
-        width :100%;
-        height:438px;
-        margin-left:0px;
-        margin-right:0px;
+.backgroundagenda .images {
+
+    margin-top: 105px;
+    width :100%;
+    height:438px;
+    margin-left:0px;
+    margin-right:0px;
+
     }
 
-    .backgroundagenda i{
+/* ícone para voltar para a home da aba Agenda*/      
+
+.backgroundagenda i{
     
-            margin-top:10px;
-            color:rgb(255,222,89);
-            font-size:40px;
-            opacity:0.6;
+    margin-top:10px;
+    color:rgb(255,222,89);
+    font-size:40px;
+    opacity:0.6;
         
-           }
-
-           .backgroundagenda .carousel-control-prev-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-            height:30px;
-            width:30px;
-
-
-           }
-           
-           .backgroundagenda .carousel-control-next-icon {
-             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-             height:30px;
-             width:30px;
-           }
     }
 
+/* ícone de voltar do carrosel da Agenda */
 
+.backgroundagenda .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    height:30px;
+    width:30px;
+
+    }
+
+/* ícone de voltar do carrosel da Agenda */    
+           
+.backgroundagenda .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    height:30px;
+    width:30px;
+
+    }
+
+    }
+
+@media only screen  and (min-width: 1000px){
+
+/* Datas do carrosel da agenda (título) */
+
+.backgroundagenda .texto h1{
+    margin-top:40px;
+    margin-left:35%;;
+    font-weight: bold;
+    color: black;
+    font-size: 4em;
+      
+    }
+
+/* informações do carrosel da agenda (texto) */ 
+
+.backgroundagenda .texto h2{
+
+    font-weight: lighter;
+    color: black;
+    font-size:1em;
+    margin-top:20%;
+    margin-left: 5%;
+    margin-right: 5%;
+      
+    }
+
+}

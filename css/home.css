@@ -1,8 +1,13 @@
 @media only screen  and (min-width: 0px){
 
+/* Scroll suave */
+
     html {
         scroll-behavior: smooth;
       }
+
+
+/* Imagem de fundo da home */
 
 .backgroundhome{
 
@@ -14,12 +19,16 @@ background-size: cover;
 background-position: center;
 }
 
+/* Botão da navbar para celulares */
+
 .navbar-toggler{
 
      padding: .25rem .50rem; 
      font-size: 1rem; 
 
 }
+
+/* Título Chord Control da navbar */
 
 .backgroundhome h1{
     
@@ -33,6 +42,8 @@ background-position: center;
     
 }
 
+/* Logo */
+
 .logo{
 
 width: 50px;
@@ -40,6 +51,8 @@ height: 50px;
 
 
 }
+
+/* Texto centro da home */
 
  .textodahome{
 
@@ -55,11 +68,15 @@ height: 50px;
 
 } 
 
+/* indicadores de página do carrosel de comentários*/
+
 .backgroundhome .carousel-indicators{
 
     bottom: -50px; 
 
 }
+
+/* carrosel de comentários */
 
 .backgroundhome .carousel{
 
@@ -70,16 +87,21 @@ height: 50px;
 
 }
 
+/* ícone de voltar do carrosel de comentários */
 
 .backgroundhome .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     
    }
    
+/* ícone de passar do carrosel de comentários */
+
    .backgroundhome .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(255,222,89)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
      
    }
+
+/* Div dos ícones das redes sociais da home */
 
 .icons{
 
@@ -94,6 +116,8 @@ margin-right: 5%;
 
 }
 
+/* ícones das redes sociais da home  */
+
  .fab{
 
     font-size:20px;
@@ -104,6 +128,8 @@ margin-right: 5%;
 }
 
 @media only screen  and (min-width: 500px){
+
+    /* Título Chord Control da navbar */
 
         .backgroundhome h1{
     
@@ -117,6 +143,8 @@ margin-right: 5%;
             
         }
         
+    /* Logo */
+
         .logo{
 
             width: 90px;
@@ -125,8 +153,9 @@ margin-right: 5%;
             
             }
 
-       
-            .textodahome{
+    /* Texto centro da home */
+
+        .textodahome{
 
                 display:flex;
                 flex-direction: column;
@@ -140,7 +169,7 @@ margin-right: 5%;
             
             } 
 
-            
+    /* carrosel de comentários */
        
         .backgroundhome .carousel{
         
@@ -151,7 +180,9 @@ margin-right: 5%;
         
         }
 
-        .backgroundhome .icons{
+    /* Div dos ícones das redes sociais da home */
+
+        .icons{
 
 
             display: flex;
@@ -162,7 +193,9 @@ margin-right: 5%;
             margin-right: 5%;
             
             
-            }
+             }
+
+    /* ícones das redes sociais da home  */
 
          .fab{
         
@@ -176,6 +209,8 @@ margin-right: 5%;
 
 @media only screen  and (min-width: 1000px){
 
+     /* Título Chord Control da navbar */
+
     .backgroundhome h1{
     
         display: flex ;
@@ -186,6 +221,8 @@ margin-right: 5%;
         margin-left:260px;
         
     }
+
+    /* Texto centro da home */
 
     .textodahome{
 
@@ -198,7 +235,7 @@ margin-right: 5%;
         
     } 
 
-
+    /* carrosel de comentários */
 
     .backgroundhome .carousel{
 
@@ -209,6 +246,9 @@ margin-right: 5%;
         
     
     }
+
+    /* Div dos ícones das redes sociais da home */
+
     .backgroundhome .icons{
 
         margin-top:-1px;
@@ -218,7 +258,9 @@ margin-right: 5%;
         
         }
 
-        .fab{
+    /* ícones das redes sociais da home  */
+
+    .fab{
 
             font-size:30px;
             color:white;
